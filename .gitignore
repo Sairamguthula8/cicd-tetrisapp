@@ -1,0 +1,25 @@
+# Terraform
+ # Terraform working directory (providers, plugins)
+infra/.terraform/
+**/.terraform/*
+
+# Terraform state files
+infra/terraform.tfstate
+infra/terraform.tfstate.*
+*.tfstate
+*.tfstate.*
+
+# Terraform variables (often contains secrets)
+infra/terraform.tfvars
+*.tfvars
+
+# Terraform plans
+*.tfplan
+
+# Node
+node_modules/
+build/
+dist/
+
+# OS
+*.exe
